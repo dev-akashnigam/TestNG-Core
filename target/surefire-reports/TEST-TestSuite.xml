@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="2.789" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="1.291" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="surefire.suiteXmlFiles" value="testng.xml"/>
     <property name="java.specification.version" value="25"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\akash\AppData\Local\Temp\surefire8804127437068914875\surefirebooter-20260924131312567_3.jar C:\Users\akash\AppData\Local\Temp\surefire8804127437068914875 2026-09-24T13-13-11_594-jvmRun1 surefire-20260924131312567_1tmp surefire_0-20260924131312567_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\akash\AppData\Local\Temp\surefire2513476538898171343\surefirebooter-20260924150004360_3.jar C:\Users\akash\AppData\Local\Temp\surefire2513476538898171343 2026-09-24T15-00-04_103-jvmRun1 surefire-20260924150004360_1tmp surefire_0-20260924150004360_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\akash\myMavenProjects\TestNGProject101\target\test-classes;C:\Users\akash\myMavenProjects\TestNGProject101\target\classes;C:\Users\akash\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\akash\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\akash\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\akash\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\akash\AppData\Local\Temp\surefire8804127437068914875\surefirebooter-20260924131312567_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\akash\AppData\Local\Temp\surefire2513476538898171343\surefirebooter-20260924150004360_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
@@ -60,7 +60,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="display1" classname="AkashSoftwareSolutions.SampleTest" time="0.025">
+  <testcase name="display1" classname="AkashSoftwareSolutions._02_BeforeAndAfterMethod" time="0.013">
     <system-out><![CDATA[Logged in successfully.
 Hello Seattle!
 ]]></system-out>
@@ -69,7 +69,7 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="display2" classname="AkashSoftwareSolutions.SampleTest" time="0.039">
+  <testcase name="display2" classname="AkashSoftwareSolutions._02_BeforeAndAfterMethod" time="0.0">
     <system-out><![CDATA[Logged out successfully.
 Logged in successfully.
 Hello Moscow!
