@@ -7,8 +7,10 @@
 
     <test name="Test 101">
         <classes>
-            <class name="AkashSoftwareSolutions._04_BeforeAndAfterTest5"/>
-            <class name="AkashSoftwareSolutions._04_BeforeAndAfterTest6"/>
+            <class name="AkashSoftwareSolutions._05_BeforeSuiteAndAfterSuite1"/>
+        </classes>
+        <classes>
+            <class name="AkashSoftwareSolutions._05_BeforeSuiteAndAfterSuite2"/>
         </classes>
     </test>
 
