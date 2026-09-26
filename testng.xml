@@ -7,8 +7,8 @@
 
     <test name="Test 101">
         <classes>
-            <!-- <class name="AkashSoftwareSolutions._01_FirstTestNGTest"/> -->
-            <class name="AkashSoftwareSolutions._03_BeforeAndAfterClass"/>
+            <class name="AkashSoftwareSolutions._04_BeforeAndAfterTest1"/>
+            <class name="AkashSoftwareSolutions._04_BeforeAndAfterTest2"/>
         </classes>
     </test>
 

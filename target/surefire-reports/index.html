@@ -103,12 +103,12 @@
                     <div class="method-list-content passed suite-Test_Suite_101">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite_101" title="AkashSoftwareSolutions._02_BeforeAndAfterMethod" class="method navigator-link" hash-for-method="display1">display1</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Test_Suite_101" title="AkashSoftwareSolutions._04_BeforeAndAfterTest1" class="method navigator-link" hash-for-method="display1">display1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite_101" title="AkashSoftwareSolutions._02_BeforeAndAfterMethod" class="method navigator-link" hash-for-method="display2">display2</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Test_Suite_101" title="AkashSoftwareSolutions._04_BeforeAndAfterTest2" class="method navigator-link" hash-for-method="display2">display2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Test_Suite_101 -->
@@ -126,7 +126,22 @@
           <div class="suite-Test_Suite_101-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">AkashSoftwareSolutions._02_BeforeAndAfterMethod</span>
+              <span class="class-name">AkashSoftwareSolutions._04_BeforeAndAfterTest2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="display2">
+                  </a> <!-- display2 -->
+                  <span class="method-name">display2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite_101-class-passed -->
+          <div class="suite-Test_Suite_101-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AkashSoftwareSolutions._04_BeforeAndAfterTest1</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -134,13 +149,6 @@
                   <a name="display1">
                   </a> <!-- display1 -->
                   <span class="method-name">display1</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="display2">
-                  </a> <!-- display2 -->
-                  <span class="method-name">display2</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -157,7 +165,8 @@
 &lt;suite name=&quot;Test Suite 101&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test 101&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;AkashSoftwareSolutions._02_BeforeAndAfterMethod&quot;/&gt;
+      &lt;class name=&quot;AkashSoftwareSolutions._04_BeforeAndAfterTest1&quot;/&gt;
+      &lt;class name=&quot;AkashSoftwareSolutions._04_BeforeAndAfterTest2&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test 101 --&gt;
 &lt;/suite&gt; &lt;!-- Test Suite 101 --&gt;
@@ -171,7 +180,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test 101 (1 class)</span>
+                <span class="test-name">Test 101 (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -200,17 +209,17 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'display1')
-data.setCell(0, 2, 'AkashSoftwareSolutions._02_BeforeAndAfterMethod')
-data.setCell(0, 3, 11);
+data.setCell(0, 2, 'AkashSoftwareSolutions._04_BeforeAndAfterTest1')
+data.setCell(0, 3, 7);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'display2')
-data.setCell(1, 2, 'AkashSoftwareSolutions._02_BeforeAndAfterMethod')
-data.setCell(1, 3, 1);
+data.setCell(1, 2, 'AkashSoftwareSolutions._04_BeforeAndAfterTest2')
+data.setCell(1, 3, 2);
 window.suiteTableData['Test_Suite_101']= { tableData: data, tableDiv: 'times-div-Test_Suite_101'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 ms</span>
+              <span class="suite-total-time">Total running time: 9 ms</span>
               <div id="times-div-Test_Suite_101">
               </div> <!-- times-div-Test_Suite_101 -->
             </div> <!-- times-div -->
@@ -225,9 +234,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Test_Suite_101" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">AkashSoftwareSolutions._04_BeforeAndAfterTest2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">logout</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Test_Suite_101" class="panel">
@@ -236,31 +254,29 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">AkashSoftwareSolutions._02_BeforeAndAfterMethod</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
+              <div class="chronological-class-name">AkashSoftwareSolutions._04_BeforeAndAfterTest1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
                 <span class="method-name">login</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">display1</span>
-                <span class="method-start">24 ms</span>
+                <span class="method-start">91 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">logout</span>
-                <span class="method-start">43 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">login</span>
-                <span class="method-start">49 ms</span>
-              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AkashSoftwareSolutions._04_BeforeAndAfterTest2</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">display2</span>
-                <span class="method-start">51 ms</span>
+                <span class="method-start">109 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">AkashSoftwareSolutions._04_BeforeAndAfterTest1</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
                 <span class="method-name">logout</span>
-                <span class="method-start">56 ms</span>
-              </div> <!-- configuration-method after -->
+                <span class="method-start">114 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

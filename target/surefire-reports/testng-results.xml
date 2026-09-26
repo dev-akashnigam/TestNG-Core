@@ -2,36 +2,30 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-24T15:00:06 IST" name="Test Suite 101" finished-at="2026-09-24T15:00:06 IST" duration-ms="145">
+  <suite started-at="2026-09-26T14:04:02 IST" name="Test Suite 101" finished-at="2026-09-26T14:04:02 IST" duration-ms="127">
     <groups>
     </groups>
-    <test started-at="2026-09-24T15:00:06 IST" name="Test 101" finished-at="2026-09-24T15:00:06 IST" duration-ms="145">
-      <class name="AkashSoftwareSolutions._02_BeforeAndAfterMethod">
-        <test-method is-config="true" signature="login()[pri:0, instance:AkashSoftwareSolutions._02_BeforeAndAfterMethod@e50a6f6]" started-at="2026-09-24T15:00:06 IST" name="login" finished-at="2026-09-24T15:00:06 IST" duration-ms="21" status="PASS">
+    <test started-at="2026-09-26T14:04:02 IST" name="Test 101" finished-at="2026-09-26T14:04:02 IST" duration-ms="127">
+      <class name="AkashSoftwareSolutions._04_BeforeAndAfterTest1">
+        <test-method is-config="true" signature="login()[pri:0, instance:AkashSoftwareSolutions._04_BeforeAndAfterTest1@d83da2e]" started-at="2026-09-26T14:04:02 IST" name="login" finished-at="2026-09-26T14:04:02 IST" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="display1()[pri:0, instance:AkashSoftwareSolutions._02_BeforeAndAfterMethod@e50a6f6]" started-at="2026-09-24T15:00:06 IST" name="display1" finished-at="2026-09-24T15:00:06 IST" duration-ms="11" status="PASS">
+        <test-method signature="display1()[pri:0, instance:AkashSoftwareSolutions._04_BeforeAndAfterTest1@d83da2e]" started-at="2026-09-26T14:04:02 IST" name="display1" finished-at="2026-09-26T14:04:02 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- display1 -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:AkashSoftwareSolutions._02_BeforeAndAfterMethod@e50a6f6]" started-at="2026-09-24T15:00:06 IST" name="logout" finished-at="2026-09-24T15:00:06 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:AkashSoftwareSolutions._04_BeforeAndAfterTest1@d83da2e]" started-at="2026-09-26T14:04:02 IST" name="logout" finished-at="2026-09-26T14:04:02 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:AkashSoftwareSolutions._02_BeforeAndAfterMethod@e50a6f6]" started-at="2026-09-24T15:00:06 IST" name="login" finished-at="2026-09-24T15:00:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="display2()[pri:0, instance:AkashSoftwareSolutions._02_BeforeAndAfterMethod@e50a6f6]" started-at="2026-09-24T15:00:06 IST" name="display2" finished-at="2026-09-24T15:00:06 IST" duration-ms="1" status="PASS">
+      </class> <!-- AkashSoftwareSolutions._04_BeforeAndAfterTest1 -->
+      <class name="AkashSoftwareSolutions._04_BeforeAndAfterTest2">
+        <test-method signature="display2()[pri:0, instance:AkashSoftwareSolutions._04_BeforeAndAfterTest2@78047b92]" started-at="2026-09-26T14:04:02 IST" name="display2" finished-at="2026-09-26T14:04:02 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- display2 -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:AkashSoftwareSolutions._02_BeforeAndAfterMethod@e50a6f6]" started-at="2026-09-24T15:00:06 IST" name="logout" finished-at="2026-09-24T15:00:06 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- AkashSoftwareSolutions._02_BeforeAndAfterMethod -->
+      </class> <!-- AkashSoftwareSolutions._04_BeforeAndAfterTest2 -->
     </test> <!-- Test 101 -->
   </suite> <!-- Test Suite 101 -->
 </testng-results>
