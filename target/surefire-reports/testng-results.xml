@@ -2,24 +2,30 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-27T14:57:13 IST" name="Test Suite 101" finished-at="2026-09-27T14:57:13 IST" duration-ms="103">
+  <suite started-at="2026-09-27T16:04:52 IST" name="Test Suite 101" finished-at="2026-09-27T16:04:52 IST" duration-ms="127">
     <groups>
+      <group name="regression">
+        <method signature="_09_UsingMultipleGroupDependencies.testB()[pri:0, instance:AkashSoftwareSolutions._09_UsingMultipleGroupDependencies@14a2f921]" name="testB" class="AkashSoftwareSolutions._09_UsingMultipleGroupDependencies"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="_09_UsingMultipleGroupDependencies.testC()[pri:0, instance:AkashSoftwareSolutions._09_UsingMultipleGroupDependencies@14a2f921]" name="testC" class="AkashSoftwareSolutions._09_UsingMultipleGroupDependencies"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-09-27T14:57:13 IST" name="Test 101" finished-at="2026-09-27T14:57:13 IST" duration-ms="103">
-      <class name="AkashSoftwareSolutions._08_UsingMultipleMethodDependencies">
-        <test-method signature="testA()[pri:0, instance:AkashSoftwareSolutions._08_UsingMultipleMethodDependencies@2aece37d]" started-at="2026-09-27T14:57:13 IST" name="testA" finished-at="2026-09-27T14:57:13 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testA -->
-        <test-method signature="testC()[pri:0, instance:AkashSoftwareSolutions._08_UsingMultipleMethodDependencies@2aece37d]" started-at="2026-09-27T14:57:13 IST" name="testC" finished-at="2026-09-27T14:57:13 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testC -->
-        <test-method signature="testB()[pri:0, instance:AkashSoftwareSolutions._08_UsingMultipleMethodDependencies@2aece37d]" started-at="2026-09-27T14:57:13 IST" name="testB" finished-at="2026-09-27T14:57:13 IST" depends-on-methods="AkashSoftwareSolutions._08_UsingMultipleMethodDependencies.testC, AkashSoftwareSolutions._08_UsingMultipleMethodDependencies.testA" duration-ms="1" status="PASS">
+    <test started-at="2026-09-27T16:04:52 IST" name="Test 101" finished-at="2026-09-27T16:04:52 IST" duration-ms="127">
+      <class name="AkashSoftwareSolutions._09_UsingMultipleGroupDependencies">
+        <test-method signature="testB()[pri:0, instance:AkashSoftwareSolutions._09_UsingMultipleGroupDependencies@14a2f921]" started-at="2026-09-27T16:04:52 IST" name="testB" finished-at="2026-09-27T16:04:52 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testB -->
-      </class> <!-- AkashSoftwareSolutions._08_UsingMultipleMethodDependencies -->
+        <test-method signature="testC()[pri:0, instance:AkashSoftwareSolutions._09_UsingMultipleGroupDependencies@14a2f921]" started-at="2026-09-27T16:04:52 IST" name="testC" finished-at="2026-09-27T16:04:52 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+        <test-method signature="testA()[pri:0, instance:AkashSoftwareSolutions._09_UsingMultipleGroupDependencies@14a2f921]" started-at="2026-09-27T16:04:52 IST" name="testA" depends-on-groups="regression, smoke" finished-at="2026-09-27T16:04:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- AkashSoftwareSolutions._09_UsingMultipleGroupDependencies -->
     </test> <!-- Test 101 -->
   </suite> <!-- Test Suite 101 -->
 </testng-results>
