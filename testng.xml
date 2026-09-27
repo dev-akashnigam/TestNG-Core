@@ -6,15 +6,8 @@
 <suite name="Test Suite 101">
 
     <test name="Test 101">
-        <groups>
-            <run>
-                <include name="smoke"/>
-            </run>
-        </groups>
-
         <classes>
-            <class name="AkashSoftwareSolutions._07_UsingGroups1"/>
-            <class name="AkashSoftwareSolutions._07_UsingGroups2"/>
+            <class name="AkashSoftwareSolutions._08_UsingMultipleMethodDependencies"/>
         </classes>
     </test>
 
