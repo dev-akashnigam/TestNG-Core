@@ -7,7 +7,7 @@
 
     <test name="Test 101">
         <classes>
-            <class name="AkashSoftwareSolutions._09_UsingMultipleGroupDependencies"/>
+            <class name="AkashSoftwareSolutions._10_UsingDataProviders"/>
         </classes>
     </test>
 

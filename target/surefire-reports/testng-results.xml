@@ -2,30 +2,75 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-27T16:04:52 IST" name="Test Suite 101" finished-at="2026-09-27T16:04:52 IST" duration-ms="127">
+  <suite started-at="2026-09-27T16:54:55 IST" name="Test Suite 101" finished-at="2026-09-27T16:54:55 IST" duration-ms="117">
     <groups>
-      <group name="regression">
-        <method signature="_09_UsingMultipleGroupDependencies.testB()[pri:0, instance:AkashSoftwareSolutions._09_UsingMultipleGroupDependencies@14a2f921]" name="testB" class="AkashSoftwareSolutions._09_UsingMultipleGroupDependencies"/>
-      </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="_09_UsingMultipleGroupDependencies.testC()[pri:0, instance:AkashSoftwareSolutions._09_UsingMultipleGroupDependencies@14a2f921]" name="testC" class="AkashSoftwareSolutions._09_UsingMultipleGroupDependencies"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-09-27T16:04:52 IST" name="Test 101" finished-at="2026-09-27T16:04:52 IST" duration-ms="127">
-      <class name="AkashSoftwareSolutions._09_UsingMultipleGroupDependencies">
-        <test-method signature="testB()[pri:0, instance:AkashSoftwareSolutions._09_UsingMultipleGroupDependencies@14a2f921]" started-at="2026-09-27T16:04:52 IST" name="testB" finished-at="2026-09-27T16:04:52 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testB -->
-        <test-method signature="testC()[pri:0, instance:AkashSoftwareSolutions._09_UsingMultipleGroupDependencies@14a2f921]" started-at="2026-09-27T16:04:52 IST" name="testC" finished-at="2026-09-27T16:04:52 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testC -->
-        <test-method signature="testA()[pri:0, instance:AkashSoftwareSolutions._09_UsingMultipleGroupDependencies@14a2f921]" started-at="2026-09-27T16:04:52 IST" name="testA" depends-on-groups="regression, smoke" finished-at="2026-09-27T16:04:52 IST" duration-ms="1" status="PASS">
+    <test started-at="2026-09-27T16:54:55 IST" name="Test 101" finished-at="2026-09-27T16:54:55 IST" duration-ms="117">
+      <class name="AkashSoftwareSolutions._10_UsingDataProviders">
+        <test-method signature="testA(java.lang.String,int,long)[pri:0, instance:AkashSoftwareSolutions._10_UsingDataProviders@3b2da18f]" started-at="2026-09-27T16:54:55 IST" name="testA" data-provider="users" finished-at="2026-09-27T16:54:55 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akash Nigam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9140392956]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testA -->
-      </class> <!-- AkashSoftwareSolutions._09_UsingMultipleGroupDependencies -->
+        <test-method signature="testA(java.lang.String,int,long)[pri:0, instance:AkashSoftwareSolutions._10_UsingDataProviders@3b2da18f]" started-at="2026-09-27T16:54:55 IST" name="testA" data-provider="users" finished-at="2026-09-27T16:54:55 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anand Nigam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7985957880]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method signature="testA(java.lang.String,int,long)[pri:0, instance:AkashSoftwareSolutions._10_UsingDataProviders@3b2da18f]" started-at="2026-09-27T16:54:55 IST" name="testA" data-provider="users" finished-at="2026-09-27T16:54:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deepak Nigam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[63]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9335368777]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- AkashSoftwareSolutions._10_UsingDataProviders -->
     </test> <!-- Test 101 -->
   </suite> <!-- Test Suite 101 -->
 </testng-results>
