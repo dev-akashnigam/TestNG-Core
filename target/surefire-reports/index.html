@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,17 +103,7 @@
                     <div class="method-list-content passed suite-Test_Suite_101">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite_101" title="AkashSoftwareSolutions._10_UsingDataProviders" class="method navigator-link" hash-for-method="testA(Anand Nigam, 31, 7985957880)">testA(Anand Nigam, 31, 7985957880)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite_101" title="AkashSoftwareSolutions._10_UsingDataProviders" class="method navigator-link" hash-for-method="testA(Akash Nigam, 35, 9140392956)">testA(Akash Nigam, 35, 9140392956)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite_101" title="AkashSoftwareSolutions._10_UsingDataProviders" class="method navigator-link" hash-for-method="testA(Deepak Nigam, 63, 9335368777)">testA(Deepak Nigam, 63, 9335368777)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Test_Suite_101" title="AkashSoftwareSolutions._11_UsingParameters" class="method navigator-link" hash-for-method="testA(Akash Nigam, 35, 9140392956)">testA(Akash Nigam, 35, 9140392956)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Test_Suite_101 -->
@@ -131,31 +121,15 @@
           <div class="suite-Test_Suite_101-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">AkashSoftwareSolutions._10_UsingDataProviders</span>
+              <span class="class-name">AkashSoftwareSolutions._11_UsingParameters</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testA(Anand Nigam, 31, 7985957880)">
-                  </a> <!-- testA(Anand Nigam, 31, 7985957880) -->
-                  <span class="method-name">testA</span>
-                  <span class="parameters">(Anand Nigam,31,7985957880)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="testA(Akash Nigam, 35, 9140392956)">
                   </a> <!-- testA(Akash Nigam, 35, 9140392956) -->
                   <span class="method-name">testA</span>
                   <span class="parameters">(Akash Nigam,35,9140392956)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testA(Deepak Nigam, 63, 9335368777)">
-                  </a> <!-- testA(Deepak Nigam, 63, 9335368777) -->
-                  <span class="method-name">testA</span>
-                  <span class="parameters">(Deepak Nigam,63,9335368777)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -171,8 +145,11 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Test Suite 101&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test 101&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;personName&quot; value=&quot;Akash Nigam&quot;/&gt;
+    &lt;parameter name=&quot;personAge&quot; value=&quot;35&quot;/&gt;
+    &lt;parameter name=&quot;mobileNo&quot; value=&quot;9140392956&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;AkashSoftwareSolutions._10_UsingDataProviders&quot;/&gt;
+      &lt;class name=&quot;AkashSoftwareSolutions._11_UsingParameters&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test 101 --&gt;
 &lt;/suite&gt; &lt;!-- Test Suite 101 --&gt;
@@ -212,24 +189,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testA')
-data.setCell(0, 2, 'AkashSoftwareSolutions._10_UsingDataProviders')
-data.setCell(0, 3, 24);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testA')
-data.setCell(1, 2, 'AkashSoftwareSolutions._10_UsingDataProviders')
-data.setCell(1, 3, 5);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testA')
-data.setCell(2, 2, 'AkashSoftwareSolutions._10_UsingDataProviders')
-data.setCell(2, 3, 1);
+data.setCell(0, 2, 'AkashSoftwareSolutions._11_UsingParameters')
+data.setCell(0, 3, 29);
 window.suiteTableData['Test_Suite_101']= { tableData: data, tableDiv: 'times-div-Test_Suite_101'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 ms</span>
+              <span class="suite-total-time">Total running time: 29 ms</span>
               <div id="times-div-Test_Suite_101">
               </div> <!-- times-div-Test_Suite_101 -->
             </div> <!-- times-div -->
@@ -255,18 +224,10 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">AkashSoftwareSolutions._10_UsingDataProviders</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">AkashSoftwareSolutions._11_UsingParameters</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testA(Akash Nigam, 35, 9140392956)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testA(Anand Nigam, 31, 7985957880)</span>
-                <span class="method-start">30 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testA(Deepak Nigam, 63, 9335368777)</span>
-                <span class="method-start">41 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
