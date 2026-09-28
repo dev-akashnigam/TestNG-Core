@@ -7,7 +7,7 @@
 
     <test name="Test Surefire Plugin 1">
         <classes>
-            <class name="AkashSoftwareSolutions._16_DisablingATest"/>
+            <class name="AkashSoftwareSolutions._17_MultipleTestExecutions"/>
         </classes>
     </test>
 
