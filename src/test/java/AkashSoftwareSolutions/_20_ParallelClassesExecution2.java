@@ -12,7 +12,7 @@ public class _20_ParallelClassesExecution2 {
 
     @Test
     public void testD() throws InterruptedException {
-        Thread.sleep(2*1000);
+        Thread.sleep(3*1000);
         System.out.println("testD() finished execution..");
     }
 
