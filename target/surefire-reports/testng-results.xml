@@ -2,28 +2,30 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-28T18:32:51 IST" name="Test Suite 101" finished-at="2026-09-28T18:32:56 IST" duration-ms="5129">
+  <suite started-at="2026-09-28T18:42:07 IST" name="Test Suite 101" finished-at="2026-09-28T18:42:12 IST" duration-ms="5121">
     <groups>
     </groups>
-    <test started-at="2026-09-28T18:32:51 IST" name="Test Surefire Plugin 1" finished-at="2026-09-28T18:32:56 IST" duration-ms="5129">
-      <class name="AkashSoftwareSolutions._19_ParallelTestExecution">
-        <test-method signature="testB()[pri:0, instance:AkashSoftwareSolutions._19_ParallelTestExecution@2aece37d]" started-at="2026-09-28T18:32:51 IST" name="testB" finished-at="2026-09-28T18:32:52 IST" duration-ms="1017" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testB -->
-        <test-method signature="testA()[pri:0, instance:AkashSoftwareSolutions._19_ParallelTestExecution@2aece37d]" started-at="2026-09-28T18:32:51 IST" name="testA" finished-at="2026-09-28T18:32:53 IST" duration-ms="2017" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testA -->
-        <test-method signature="testC()[pri:0, instance:AkashSoftwareSolutions._19_ParallelTestExecution@2aece37d]" started-at="2026-09-28T18:32:52 IST" name="testC" finished-at="2026-09-28T18:32:56 IST" duration-ms="4003" status="PASS">
+    <test started-at="2026-09-28T18:42:07 IST" name="Test Surefire Plugin 1" finished-at="2026-09-28T18:42:12 IST" duration-ms="5121">
+      <class name="AkashSoftwareSolutions._20_ParallelClassesExecution2">
+        <test-method signature="testC()[pri:0, instance:AkashSoftwareSolutions._20_ParallelClassesExecution2@16aa0a0a]" started-at="2026-09-28T18:42:07 IST" name="testC" finished-at="2026-09-28T18:42:08 IST" duration-ms="1021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testC -->
-        <test-method signature="testD()[pri:0, instance:AkashSoftwareSolutions._19_ParallelTestExecution@2aece37d]" started-at="2026-09-28T18:32:53 IST" name="testD" finished-at="2026-09-28T18:32:55 IST" duration-ms="2004" status="PASS">
+        <test-method signature="testD()[pri:0, instance:AkashSoftwareSolutions._20_ParallelClassesExecution2@16aa0a0a]" started-at="2026-09-28T18:42:08 IST" name="testD" finished-at="2026-09-28T18:42:10 IST" duration-ms="2008" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testD -->
-      </class> <!-- AkashSoftwareSolutions._19_ParallelTestExecution -->
+      </class> <!-- AkashSoftwareSolutions._20_ParallelClassesExecution2 -->
+      <class name="AkashSoftwareSolutions._20_ParallelClassesExecution1">
+        <test-method signature="testA()[pri:0, instance:AkashSoftwareSolutions._20_ParallelClassesExecution1@548a102f]" started-at="2026-09-28T18:42:07 IST" name="testA" finished-at="2026-09-28T18:42:09 IST" duration-ms="2019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method signature="testB()[pri:0, instance:AkashSoftwareSolutions._20_ParallelClassesExecution1@548a102f]" started-at="2026-09-28T18:42:09 IST" name="testB" finished-at="2026-09-28T18:42:12 IST" duration-ms="3003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+      </class> <!-- AkashSoftwareSolutions._20_ParallelClassesExecution1 -->
     </test> <!-- Test Surefire Plugin 1 -->
   </suite> <!-- Test Suite 101 -->
 </testng-results>
