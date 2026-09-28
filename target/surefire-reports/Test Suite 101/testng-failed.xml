@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite 101]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test Surefire Plugin 1(failed)" verbose="0">
+    <classes>
+      <class name="AkashSoftwareSolutions._18_DefiningMaxTestExecutionTime">
+        <methods>
+          <include name="testA"/>
+        </methods>
+      </class> <!-- AkashSoftwareSolutions._18_DefiningMaxTestExecutionTime -->
+    </classes>
+  </test> <!-- Test Surefire Plugin 1(failed) -->
+</suite> <!-- Failed suite [Test Suite 101] -->
