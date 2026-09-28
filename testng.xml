@@ -6,11 +6,8 @@
 <suite name="Test Suite 101">
 
     <test name="Test 101">
-        <parameter name="personName" value="Akash Nigam"/>
-        <parameter name="personAge" value="35"/>
-        <parameter name="mobileNo" value="9140392956"/>
         <classes>
-            <class name="AkashSoftwareSolutions._11_UsingParameters"/>
+            <class name="AkashSoftwareSolutions._13_UsingTestPriorities"/>
         </classes>
     </test>
 

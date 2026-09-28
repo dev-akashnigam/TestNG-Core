@@ -1,34 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-27T17:31:20 IST" name="Test Suite 101" finished-at="2026-09-27T17:31:20 IST" duration-ms="112">
+  <suite started-at="2026-09-27T18:13:25 IST" name="Test Suite 101" finished-at="2026-09-27T18:13:26 IST" duration-ms="155">
     <groups>
     </groups>
-    <test started-at="2026-09-27T17:31:20 IST" name="Test 101" finished-at="2026-09-27T17:31:20 IST" duration-ms="112">
-      <class name="AkashSoftwareSolutions._11_UsingParameters">
-        <test-method signature="testA(java.lang.String,int,long)[pri:0, instance:AkashSoftwareSolutions._11_UsingParameters@17c386de]" started-at="2026-09-27T17:31:20 IST" name="testA" finished-at="2026-09-27T17:31:20 IST" duration-ms="29" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Akash Nigam]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[35]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[9140392956]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2026-09-27T18:13:25 IST" name="Test 101" finished-at="2026-09-27T18:13:26 IST" duration-ms="155">
+      <class name="AkashSoftwareSolutions._13_UsingTestPriorities">
+        <test-method signature="testD()[pri:0, instance:AkashSoftwareSolutions._13_UsingTestPriorities@3c87521]" started-at="2026-09-27T18:13:26 IST" name="testD" finished-at="2026-09-27T18:13:26 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testD -->
+        <test-method signature="testB()[pri:29, instance:AkashSoftwareSolutions._13_UsingTestPriorities@3c87521]" started-at="2026-09-27T18:13:26 IST" name="testB" finished-at="2026-09-27T18:13:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method signature="testC()[pri:42, instance:AkashSoftwareSolutions._13_UsingTestPriorities@3c87521]" started-at="2026-09-27T18:13:26 IST" name="testC" finished-at="2026-09-27T18:13:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+        <test-method signature="testA()[pri:58, instance:AkashSoftwareSolutions._13_UsingTestPriorities@3c87521]" started-at="2026-09-27T18:13:26 IST" name="testA" finished-at="2026-09-27T18:13:26 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testA -->
-      </class> <!-- AkashSoftwareSolutions._11_UsingParameters -->
+      </class> <!-- AkashSoftwareSolutions._13_UsingTestPriorities -->
     </test> <!-- Test 101 -->
   </suite> <!-- Test Suite 101 -->
 </testng-results>
