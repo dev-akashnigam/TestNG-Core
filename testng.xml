@@ -7,7 +7,7 @@
 
     <test name="Test 101">
         <classes>
-            <class name="AkashSoftwareSolutions._13_UsingTestPriorities"/>
+            <class name="AkashSoftwareSolutions._14_CreatingNUsingCustomRetryLogic"/>
         </classes>
     </test>
 
