@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +103,22 @@
                     <div class="method-list-content passed suite-Test_Suite_101">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite_101" title="AkashSoftwareSolutions._16_ConfiguringMavenSurefirePlugin" class="method navigator-link" hash-for-method="testA">testA</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Test_Suite_101" title="AkashSoftwareSolutions._16_DisablingAllTests" class="method navigator-link" hash-for-method="testA">testA</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Test_Suite_101" title="AkashSoftwareSolutions._16_ConfiguringMavenSurefirePlugin" class="method navigator-link" hash-for-method="testB">testB</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Test_Suite_101" title="AkashSoftwareSolutions._16_DisablingAllTests" class="method navigator-link" hash-for-method="testB">testB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite_101" title="AkashSoftwareSolutions._16_DisablingAllTests" class="method navigator-link" hash-for-method="testC">testC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite_101" title="AkashSoftwareSolutions._16_DisablingAllTests" class="method navigator-link" hash-for-method="testD">testD</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Test_Suite_101 -->
@@ -126,7 +136,7 @@
           <div class="suite-Test_Suite_101-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">AkashSoftwareSolutions._16_ConfiguringMavenSurefirePlugin</span>
+              <span class="class-name">AkashSoftwareSolutions._16_DisablingAllTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -143,6 +153,20 @@
                   <span class="method-name">testB</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testC">
+                  </a> <!-- testC -->
+                  <span class="method-name">testC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testD">
+                  </a> <!-- testD -->
+                  <span class="method-name">testD</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Test_Suite_101-class-passed -->
         </div> <!-- panel Test_Suite_101 -->
@@ -155,11 +179,11 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Test Suite 101&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test 101&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test Surefire Plugin 1&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;AkashSoftwareSolutions._16_ConfiguringMavenSurefirePlugin&quot;/&gt;
+      &lt;class name=&quot;AkashSoftwareSolutions._16_DisablingAllTests&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test 101 --&gt;
+  &lt;/test&gt; &lt;!-- Test Surefire Plugin 1 --&gt;
 &lt;/suite&gt; &lt;!-- Test Suite 101 --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -171,7 +195,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test 101 (1 class)</span>
+                <span class="test-name">Test Surefire Plugin 1 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -197,20 +221,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testA')
-data.setCell(0, 2, 'AkashSoftwareSolutions._16_ConfiguringMavenSurefirePlugin')
-data.setCell(0, 3, 12);
+data.setCell(0, 2, 'AkashSoftwareSolutions._16_DisablingAllTests')
+data.setCell(0, 3, 31);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testB')
-data.setCell(1, 2, 'AkashSoftwareSolutions._16_ConfiguringMavenSurefirePlugin')
-data.setCell(1, 3, 2);
+data.setCell(1, 2, 'AkashSoftwareSolutions._16_DisablingAllTests')
+data.setCell(1, 3, 14);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testD')
+data.setCell(2, 2, 'AkashSoftwareSolutions._16_DisablingAllTests')
+data.setCell(2, 3, 2);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testC')
+data.setCell(3, 2, 'AkashSoftwareSolutions._16_DisablingAllTests')
+data.setCell(3, 3, 2);
 window.suiteTableData['Test_Suite_101']= { tableData: data, tableDiv: 'times-div-Test_Suite_101'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 ms</span>
+              <span class="suite-total-time">Total running time: 49 ms</span>
               <div id="times-div-Test_Suite_101">
               </div> <!-- times-div-Test_Suite_101 -->
             </div> <!-- times-div -->
@@ -236,14 +268,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">AkashSoftwareSolutions._16_ConfiguringMavenSurefirePlugin</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">AkashSoftwareSolutions._16_DisablingAllTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testA</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testB</span>
-                <span class="method-start">21 ms</span>
+                <span class="method-start">52 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testC</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testD</span>
+                <span class="method-start">86 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

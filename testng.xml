@@ -5,9 +5,9 @@
 
 <suite name="Test Suite 101">
 
-    <test name="Test 101">
+    <test name="Test Surefire Plugin 1">
         <classes>
-            <class name="AkashSoftwareSolutions._16_ConfiguringMavenSurefirePlugin"/>
+            <class name="AkashSoftwareSolutions._16_DisablingATest"/>
         </classes>
     </test>
 
