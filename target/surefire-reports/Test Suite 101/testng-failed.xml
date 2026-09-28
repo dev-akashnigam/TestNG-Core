@@ -3,11 +3,11 @@
 <suite name="Failed suite [Test Suite 101]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Test 101(failed)" verbose="0">
     <classes>
-      <class name="AkashSoftwareSolutions._14_CreatingNUsingCustomRetryLogic">
+      <class name="AkashSoftwareSolutions._15_ConsumingCustomTestListeners">
         <methods>
-          <include name="testA"/>
+          <include name="testB"/>
         </methods>
-      </class> <!-- AkashSoftwareSolutions._14_CreatingNUsingCustomRetryLogic -->
+      </class> <!-- AkashSoftwareSolutions._15_ConsumingCustomTestListeners -->
     </classes>
   </test> <!-- Test 101(failed) -->
 </suite> <!-- Failed suite [Test Suite 101] -->
