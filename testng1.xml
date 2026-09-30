@@ -5,10 +5,11 @@
 
 <suite name="Test Suite 101">
 
-    <test name="Test Surefire Plugin 1">
-        <classes>
-            <class name="AkashSoftwareSolutions._20_ParallelClassesExecution1"/>
-        </classes>
-    </test>
+<test name="Test Surefire Plugin 1">
+    <classes>
+        <class name="AkashSoftwareSolutions._21_RunningGroupFromCmd1"/>
+        <class name="AkashSoftwareSolutions._21_RunningGroupFromCmd2"/>
+    </classes>
+</test>
 
 </suite>
