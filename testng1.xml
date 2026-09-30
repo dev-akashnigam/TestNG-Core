@@ -7,8 +7,8 @@
 
 <test name="Test Surefire Plugin 1">
     <classes>
-        <class name="AkashSoftwareSolutions._21_RunningGroupFromCmd1"/>
-        <class name="AkashSoftwareSolutions._21_RunningGroupFromCmd2"/>
+        <class name="AkashSoftwareSolutions._22_SkipClassExecution1"/>
+        <class name="AkashSoftwareSolutions._22_SkipClassExecution2"/>
     </classes>
 </test>
 

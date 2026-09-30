@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="0.774" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="0.82" tests="1" errors="0" skipped="0" failures="0">
   <properties>
+    <property name="surefire.suiteXmlFiles" value="testng1.xml"/>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
@@ -15,9 +16,8 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\akash\AppData\Local\Temp\surefire11912882943501674828\surefirebooter-20260930124413195_3.jar C:\Users\akash\AppData\Local\Temp\surefire11912882943501674828 2026-09-30T12-44-12_932-jvmRun1 surefire-20260930124413195_1tmp surefire_0-20260930124413195_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\akash\AppData\Local\Temp\surefire14022206849392368005\surefirebooter-20260930142321057_3.jar C:\Users\akash\AppData\Local\Temp\surefire14022206849392368005 2026-09-30T14-23-20_823-jvmRun1 surefire-20260930142321057_1tmp surefire_0-20260930142321057_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="_21_RunningGroupFromCmd1,_21_RunningGroupFromCmd2"/>
     <property name="surefire.test.class.path" value="C:\Users\akash\myMavenProjects\TestNGProject101\target\test-classes;C:\Users\akash\myMavenProjects\TestNGProject101\target\classes;C:\Users\akash\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\akash\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\akash\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\akash\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\akash"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\akash\AppData\Local\Temp\surefire11912882943501674828\surefirebooter-20260930124413195_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\akash\AppData\Local\Temp\surefire14022206849392368005\surefirebooter-20260930142321057_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
@@ -48,7 +48,6 @@
     <property name="java.version" value="25.0.1"/>
     <property name="user.dir" value="C:\Users\akash\myMavenProjects\TestNGProject101"/>
     <property name="os.arch" value="amd64"/>
-    <property name="groups" value="regression"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
@@ -61,16 +60,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testA" classname="AkashSoftwareSolutions._21_RunningGroupFromCmd1" time="0.01">
-    <system-out><![CDATA[Within testA() - _21_RunningGroupFromCmd1
+  <testcase name="testB" classname="AkashSoftwareSolutions._22_SkipClassExecution2" time="0.011">
+    <system-out><![CDATA[Within testB()
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
-  </testcase>
-  <testcase name="testA" classname="AkashSoftwareSolutions._21_RunningGroupFromCmd2" time="0.003">
-    <system-out><![CDATA[Within testA() - _21_RunningGroupFromCmd2
-]]></system-out>
   </testcase>
 </testsuite>
